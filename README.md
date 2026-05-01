@@ -3,7 +3,7 @@
 ## 👋 O mnie
 
 Jestem początkującym specjalistą QA z zapleczem programistycznym (Python, Django, JavaScript).  
-Skupiam się na testowaniu aplikacji webowych – zarówno manualnym, jak i analizie API oraz logiki systemów.
+Skupiam się na testowaniu aplikacji webowych – zarówno manualnym, jak i analizie logiki systemów oraz testach automatycznych UI.
 
 Dzięki doświadczeniu w tworzeniu aplikacji webowych lepiej rozumiem ich strukturę, co pozwala mi skuteczniej identyfikować potencjalne błędy oraz analizować działanie systemów.
 
@@ -11,11 +11,12 @@ Dzięki doświadczeniu w tworzeniu aplikacji webowych lepiej rozumiem ich strukt
 
 ## 🧪 Zawartość repozytorium
 
-W tym repozytorium znajdują się dokumentacje testowe dla aplikacji webowych:
+W tym repozytorium znajdują się:
 
-- Test plany
-- Test case’y
-- Raporty błędów
+- dokumentacja testowa
+- test case’y
+- raporty błędów
+- testy automatyczne UI (Selenium)
 
 Każdy projekt opiera się na rzeczywistych aplikacjach webowych stworzonych przeze mnie w celach edukacyjnych.
 
@@ -54,7 +55,7 @@ Każdy projekt opiera się na rzeczywistych aplikacjach webowych stworzonych prz
 
 ---
 
-## 🛠️ Umiejętności QA
+## 🧪 Umiejętności QA
 
 - tworzenie test case’ów
 - pisanie test planów
@@ -66,27 +67,58 @@ Każdy projekt opiera się na rzeczywistych aplikacjach webowych stworzonych prz
 
 ---
 
+## 🤖 Testy automatyczne (Selenium)
+
+W ramach nauki automatyzacji QA tworzę testy UI z użyciem Selenium WebDriver.
+
+Testy znajdują się w folderze:
+
+automation-tests
+
+---
+
+### 📌 Zakres testów automatycznych
+
+✔ test wyszukiwania w Google (UI test)  
+✔ test rejestracji użytkownika (Django application)  
+
+---
+
+### 🧪 Przykładowe scenariusze testowe
+
+#### Google Search Test
+- otwarcie przeglądarki (Chrome)
+- wejście na stronę Google
+- wykonanie zapytania
+- weryfikacja wyników
+
+#### Register Test (Django)
+- otwarcie strony rejestracji
+- wypełnienie formularza (username, email, password)
+- walidacja danych
+- wysłanie formularza
+- sprawdzenie poprawnej rejestracji
+
+---
+
+## 🛠️ Technologie
+
+- Python
+- Selenium WebDriver
+- ChromeDriver
+- Django (testowane aplikacje)
+
+---
+
 ## 🎯 Cel portfolio
 
 Celem tego repozytorium jest pokazanie umiejętności:
+
 - analizy aplikacji webowych
 - myślenia testerskiego
 - tworzenia dokumentacji QA
+- projektowania testów manualnych i automatycznych
 - zrozumienia działania systemów webowych
-
-  ## 🤖 Testy automatyczne (Selenium)
-
-W ramach nauki automatyzacji QA stworzyłem pierwszy test UI z użyciem Selenium.
-
-### Zakres testu:
-- otwarcie przeglądarki (Chrome)
-- wejście na stronę wyszukiwania
-- wykonanie zapytania
-- zamknięcie przeglądarki
-
-### Technologie:
-- Python
-- Selenium WebDriver
 
 ---
 
