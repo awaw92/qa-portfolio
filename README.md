@@ -74,6 +74,20 @@ Celem tego repozytorium jest pokazanie umiejętności:
 - tworzenia dokumentacji QA
 - zrozumienia działania systemów webowych
 
+  ## 🤖 Testy automatyczne (Selenium)
+
+W ramach nauki automatyzacji QA stworzyłem pierwszy test UI z użyciem Selenium.
+
+### Zakres testu:
+- otwarcie przeglądarki (Chrome)
+- wejście na stronę wyszukiwania
+- wykonanie zapytania
+- zamknięcie przeglądarki
+
+### Technologie:
+- Python
+- Selenium WebDriver
+
 ---
 
 ## 📫 Kontakt
