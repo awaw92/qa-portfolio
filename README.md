@@ -74,24 +74,36 @@ Testy obejmują zarówno warstwę UI (Selenium), jak i logikę backendu aplikacj
 
 ## 🧪 Przykładowe scenariusze testowe
 
-### 🔐 Login Test (Negative)
+### 🔐 Login Test (Negative – UI Automation / Selenium)
 - otwarcie strony logowania
-- wpisanie błędnych danych
+- wpisanie niepoprawnych danych (invalid credentials)
 - wysłanie formularza
 - weryfikacja komunikatu błędu
 
-### 🔎 Google Search Test
+---
+
+### 🔎 Google Search Test (UI Automation / Selenium)
 - otwarcie przeglądarki
 - wejście na stronę Google
 - wykonanie zapytania
-- weryfikacja wyników
+- weryfikacja wyników wyszukiwania
 
-### 📝 Register Test
+---
+
+### 📝 Register Test (Web Application – Functional Test)
 - otwarcie formularza rejestracji
 - wypełnienie pól (username, email, password)
-- walidacja danych
-- sprawdzenie poprawnej rejestracji
+- walidacja danych wejściowych
+- sprawdzenie poprawnej rejestracji użytkownika
 
+---
+
+### 🧪 Quiz Application Test (Backend Functional Test – Django Test Client)
+- wysłanie żądania POST do rozpoczęcia quizu
+- inicjalizacja sesji użytkownika
+- ustawienie początkowego wyniku (score = 0)
+- przygotowanie struktury quizu (pytania, poziom trudności)
+- walidacja poprawnej inicjalizacji stanu gry
 ---
 
 ## 🛠️ Technologie
