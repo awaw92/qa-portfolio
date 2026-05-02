@@ -1,22 +1,22 @@
 # QA Portfolio – Adrian
 
 ## 👋 O mnie
+Jestem początkującym specjalistą QA z zapleczem programistycznym (Python, Django, JavaScript).
 
-Jestem początkującym specjalistą QA z zapleczem programistycznym (Python, Django, JavaScript).  
-Skupiam się na testowaniu aplikacji webowych – zarówno manualnym, jak i analizie logiki systemów oraz testach automatycznych UI.
+Skupiam się na testowaniu aplikacji webowych – zarówno manualnym, jak i automatycznym (UI testing z Selenium). Analizuję logikę biznesową aplikacji, identyfikuję błędy oraz projektuję przypadki testowe (test cases i test scenarios).
 
-Dzięki doświadczeniu w tworzeniu aplikacji webowych lepiej rozumiem ich strukturę, co pozwala mi skuteczniej identyfikować potencjalne błędy oraz analizować działanie systemów.
+Dzięki doświadczeniu w tworzeniu aplikacji webowych lepiej rozumiem ich architekturę, co pozwala mi skuteczniej wykrywać potencjalne problemy.
 
 ---
 
-## 🧪 Zawartość repozytorium
+## 🧪 Zakres QA w portfolio
 
 W tym repozytorium znajdują się:
 
-- dokumentacja testowa
-- test case’y
-- raporty błędów
-- testy automatyczne UI (Selenium)
+- dokumentacja testowa (test plans)
+- przypadki testowe (test cases)
+- raporty błędów (bug reports)
+- testy automatyczne UI (Selenium WebDriver)
 
 Każdy projekt opiera się na rzeczywistych aplikacjach webowych stworzonych przeze mnie w celach edukacyjnych.
 
@@ -26,77 +26,64 @@ Każdy projekt opiera się na rzeczywistych aplikacjach webowych stworzonych prz
 
 ### 1. World Geography Quiz (Django)
 - logika quizu oparta o sesje
-- system punktacji
-- dynamiczne pytania
-- ranking użytkowników
+- system punktacji i ranking użytkowników
+- dynamiczne pytania i poziomy trudności
 
 ### 2. Auction Web Application (Django)
-- system aukcji
-- licytacje (bids)
-- lista obserwowanych (watchlist)
-- komentarze użytkowników
+- system aukcji i licytacji (bids)
+- watchlist (obserwowane aukcje)
+- komentarze użytkowników i kategorie
 
 ### 3. Wiki Encyclopedia (Django)
-- tworzenie i edycja stron
-- obsługa Markdown
+- tworzenie i edycja stron (Markdown)
 - wyszukiwanie treści
+- losowa strona i obsługa błędów
 
 ### 4. Mail Client (SPA / REST API)
 - skrzynki mailowe (Inbox / Sent / Archive)
-- dynamiczne ładowanie danych
+- dynamiczne ładowanie danych (SPA)
 - komunikacja z API
-- odpowiadanie na wiadomości
+- wysyłanie i odpowiadanie na wiadomości
 
 ### 5. Google Search Front-End
-- wyszukiwanie standardowe
-- wyszukiwanie obrazów
-- wyszukiwanie zaawansowane
-- testowanie formularzy
+- wyszukiwanie standardowe i zaawansowane
+- obsługa formularzy GET
+- testowanie UI i walidacji formularzy
 
 ---
 
-## 🧪 Umiejętności QA
+## 🤖 Testy automatyczne (Selenium WebDriver)
 
-- tworzenie test case’ów
-- pisanie test planów
-- raportowanie błędów
-- podstawy testowania API (REST)
-- analiza logiki biznesowej
-- identyfikacja przypadków brzegowych (edge cases)
-- testowanie aplikacji webowych
-
----
-
-## 🤖 Testy automatyczne (Selenium)
-
-W ramach nauki automatyzacji QA tworzę testy UI z użyciem Selenium WebDriver.
+W ramach nauki automatyzacji QA tworzę testy UI z użyciem Selenium WebDriver (Python).
 
 Testy znajdują się w folderze:
 
 automation-tests
 
----
-
-### 📌 Zakres testów automatycznych
-
-✔ test wyszukiwania w Google (UI test)  
+✔ test logowania (negative login test – invalid credentials)  
+✔ test wyszukiwania Google (UI automation)  
 ✔ test rejestracji użytkownika (Django application)  
 
 ---
 
-### 🧪 Przykładowe scenariusze testowe
+## 🧪 Przykładowe scenariusze testowe
 
-#### Google Search Test
-- otwarcie przeglądarki (Chrome)
+### 🔐 Login Test (Negative)
+- otwarcie strony logowania
+- wpisanie błędnych danych
+- wysłanie formularza
+- weryfikacja komunikatu błędu
+
+### 🔎 Google Search Test
+- otwarcie przeglądarki
 - wejście na stronę Google
 - wykonanie zapytania
 - weryfikacja wyników
 
-#### Register Test (Django)
-- otwarcie strony rejestracji
-- wypełnienie formularza (username, email, password)
+### 📝 Register Test
+- otwarcie formularza rejestracji
+- wypełnienie pól (username, email, password)
 - walidacja danych
-- wysłanie formularza
 - sprawdzenie poprawnej rejestracji
 
 ---
@@ -106,7 +93,10 @@ automation-tests
 - Python
 - Selenium WebDriver
 - ChromeDriver
-- Django (testowane aplikacje)
+- Django
+- HTML / CSS / JavaScript
+- REST API
+- SQLite
 
 ---
 
@@ -115,13 +105,10 @@ automation-tests
 Celem tego repozytorium jest pokazanie umiejętności:
 
 - analizy aplikacji webowych
-- myślenia testerskiego
-- tworzenia dokumentacji QA
+- myślenia testerskiego (QA mindset)
 - projektowania testów manualnych i automatycznych
+- automatyzacji testów UI (Selenium)
 - zrozumienia działania systemów webowych
 
 ---
 
-## 📫 Kontakt
-
-Email: adrianwawrzyniak92@wp.pl
