@@ -52,9 +52,9 @@ Każdy projekt opiera się na rzeczywistych aplikacjach webowych stworzonych prz
 
 ---
 
-## 🤖 Testy automatyczne (Selenium WebDriver)
+## 🤖 Testy automatyczne (Selenium WebDriver + Django Test Client)
 
-W ramach nauki automatyzacji QA tworzę testy UI z użyciem Selenium WebDriver (Python).
+W ramach nauki automatyzacji QA tworzę testy UI oraz backendowe z użyciem Selenium WebDriver (Python) oraz Django Test Client.
 
 Testy znajdują się w folderze:
 
@@ -63,8 +63,14 @@ automation-tests
 ✔ test logowania (negative login test – invalid credentials)  
 ✔ test wyszukiwania Google (UI automation)  
 ✔ test rejestracji użytkownika (Django application)  
+✔ test logiki quizu (backend functional test – Django Test Client)  
+  - sprawdzenie inicjalizacji sesji użytkownika  
+  - walidacja ustawienia początkowego wyniku (score = 0)  
+  - symulacja rozpoczęcia quizu przez POST request  
 
 ---
+
+Testy obejmują zarówno warstwę UI (Selenium), jak i logikę backendu aplikacji webowych (Django Test Client), co pozwala na pełniejsze pokrycie scenariuszy testowych.
 
 ## 🧪 Przykładowe scenariusze testowe
 
