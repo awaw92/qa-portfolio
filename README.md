@@ -1,7 +1,7 @@
-# 📌 QA Portfolio 
+#  QA Portfolio 
 ---
 
-# 🧪 Zakres QA w portfolio
+#  Zakres QA w portfolio
 
 W tym repozytorium znajdują się:
 
@@ -15,7 +15,7 @@ Każdy projekt opiera się na rzeczywistych aplikacjach webowych stworzonych prz
 
 ---
 
-# 📂 Testowane projekty
+#  Testowane projekty
 
 ## 1. World Geography Quiz (Django)
 
@@ -59,7 +59,7 @@ Każdy projekt opiera się na rzeczywistych aplikacjach webowych stworzonych prz
 
 ---
 
-# 🤖 Testy automatyczne (Selenium WebDriver + Django Test Client)
+#  Testy automatyczne (Selenium WebDriver + Django Test Client)
 
 W ramach nauki automatyzacji QA tworzę testy UI oraz backendowe z użyciem:
 
@@ -68,7 +68,7 @@ W ramach nauki automatyzacji QA tworzę testy UI oraz backendowe z użyciem:
 
 ---
 
-## ✔ Przykładowe testy
+##  Przykładowe testy
 
 ### 🔐 Login Test (UI – Selenium)
 - otwarcie strony logowania
@@ -77,21 +77,21 @@ W ramach nauki automatyzacji QA tworzę testy UI oraz backendowe z użyciem:
 
 ---
 
-### 🔎 Google Search Test (UI – Selenium)
+###  Google Search Test (UI – Selenium)
 - otwarcie Google
 - wykonanie zapytania
 - weryfikacja wyników
 
 ---
 
-### 📝 Register Test (Django)
+###  Register Test (Django)
 - tworzenie użytkownika
 - walidacja formularza
 - sprawdzenie poprawnej rejestracji
 
 ---
 
-### 🧪 Quiz Application Test (Backend – Django Test Client)
+###  Quiz Application Test (Backend – Django Test Client)
 - inicjalizacja sesji użytkownika
 - ustawienie wyniku początkowego (score = 0)
 - uruchomienie quizu
@@ -99,11 +99,11 @@ W ramach nauki automatyzacji QA tworzę testy UI oraz backendowe z użyciem:
 
 ---
 
-### 🏷️ Auction E2E Automation Test (Selenium WebDriver)
+###  Auction E2E Automation Test (Selenium WebDriver)
 
 Automatyczny test end-to-end dla aplikacji aukcyjnej (Django).
 
-#### 📌 Zakres:
+####  Zakres:
 - logowanie użytkownika
 - tworzenie nowej aukcji (listing)
 - wybór kategorii (Cars / Trucks / Phones)
@@ -111,15 +111,15 @@ Automatyczny test end-to-end dla aplikacji aukcyjnej (Django).
 - składanie oferty (bid)
 - weryfikacja zmiany ceny po licytacji
 
-#### 📁 Lokalizacja:
+####  Lokalizacja:
 automation-tests/test_login_and_bid.py
 
-#### 🎯 Cel:
+####  Cel:
 Test symuluje pełny przepływ użytkownika w systemie aukcyjnym i weryfikuje logikę biznesową licytacji.
 
 ---
 
-# 🛠️ Technologie
+#  Technologie
 
 - Python
 - Selenium WebDriver
@@ -131,7 +131,7 @@ Test symuluje pełny przepływ użytkownika w systemie aukcyjnym i weryfikuje lo
 
 ---
 
-# 🎯 Cel portfolio
+#  Cel portfolio
 
 Celem tego repozytorium jest pokazanie umiejętności:
 
@@ -144,7 +144,7 @@ Celem tego repozytorium jest pokazanie umiejętności:
 
 ---
 
-# 📌 Podsumowanie
+#  Podsumowanie
 
 To portfolio pokazuje:
 
