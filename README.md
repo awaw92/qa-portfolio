@@ -70,7 +70,7 @@ W ramach nauki automatyzacji QA tworzę testy UI oraz backendowe z użyciem:
 
 ##  Przykładowe testy
 
-### 🔐 Login Test (UI – Selenium)
+###  Login Test (UI – Selenium)
 - otwarcie strony logowania
 - wpisanie niepoprawnych danych
 - walidacja komunikatu błędu
